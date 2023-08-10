@@ -21,7 +21,7 @@ app.add_middleware(
 )
 
 # POSTGRES DATABASE CONNECTION
-conn, cursor = connect_database()
+# conn, cursor = connect_database()
 
 app.include_router(customers.router)
 app.include_router(users.router)

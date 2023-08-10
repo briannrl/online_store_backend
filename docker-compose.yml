@@ -1,0 +1,16 @@
+version: "3"
+services:
+  api:
+    build: .
+    ports:
+      - 8000:8000 # LOCALHOST PORT : DOCKER IMAGE PORT
+    # env_file:
+    #   - ./.env
+    # environment:
+    #   - POSTGRES_HOST = localhost
+    #   - POSTGRES_DATABASE = fastapi
+    #   - POSTGRES_USER = postgres
+    #   - POSTGRES_PASSWORD = pgpcbrian
+    #   - SECRET_KEY = j07917hkhkhj43khkh2kh4h432542jkhkjh235jh325j3k42
+    #   - ALGORITHM = HS256
+    #   - ACCESS_TOKEN_EXPIRE_MINUTES = 60
